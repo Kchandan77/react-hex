@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
+import Navigation from './components/Navigation';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+    <Navigation/>
+    <button id='big-btn'>ADD TO METAMASK</button>
+    
+    <div className='text-a'>
+      <button>A</button>
+      </div>
+      <div className='text-b'>
+      <button>B</button>
+      <div className='dropdown'>
+        <select>
+          <option value='english'>English</option>
+          <option value='hindi'>Hindi</option>
+          <option value='french'>French</option>
+        </select>
+      </div>
+      </div>
     </div>
   );
 }

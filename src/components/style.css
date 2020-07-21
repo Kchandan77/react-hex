@@ -1,0 +1,100 @@
+.nav li {
+  display: inline-block;
+  padding: 1rem;
+  font-size: larger;
+
+
+}
+  ul .routerLink{
+   text-decoration: none;
+ }
+
+ .flex-container{
+   display: flex;
+   flex-direction: column;
+ }
+ .flex-container > div{
+  background-color: #9b9494;
+  width: 500px;
+  height: 100px;
+  margin: 5px;
+  margin-left: 5px;
+  text-align: left;
+  line-height: 10px;
+  font-size: 15px;
+ }
+
+ .flex-container button{
+   color: red;
+   float: right;
+   margin-top: -30px;
+   margin-right: 15px;
+   
+ }
+ .hex-h1{
+   color: royalblue;
+   float: right;
+   margin-top: -24px;
+   margin-right: 10px;
+   font-size: 12px;
+ }
+ 
+ .flex-container h3{
+   float: right;
+   margin-top: -54px;
+   margin-right: 15px;
+   color: seashell;
+   
+ }
+
+ .flex-container1 h6{
+  line-height: 8px;
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: 7px;
+ }
+
+ .flex-container .stake-btn {
+   float: left;
+   margin-top: 50px;
+   background-color: black;
+
+ }
+ .list-container ul{
+  margin-top: 40px;
+   display:flex;
+   flex-direction: column;
+   margin-left: 290px;
+   
+   
+ }
+ .active-stakes li a{
+  display:flex;
+ font-size: 12px;
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: sans-serif;
+  margin-left: -38px;
+  padding: 5px;
+  border: 1px solid grey;
+  
+  
+
+ }
+ .active-stake {
+   color:white;
+   
+ }
+ .stake-history{
+   color: whitesmoke;
+   margin-top: 30px;
+ }
+
+  .flex-container1 .button {
+   color: grey;
+   background-color: rgb(226, 214, 214);
+   
+ }
+ div .main{
+   
+ }
